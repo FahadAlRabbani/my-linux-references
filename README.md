@@ -12,7 +12,7 @@ Things to remember before running some types of backups:
 ### Full system backup
 `sudo rsync -aAXv --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found","/home/*/.cache/mozilla","/home/*/VirtualBox VMs"} / /mnt/LocalData/optiblack`
 
-### Remove files have been deleted in source dir
+### Remove that files have been deleted in source dir
 
 I have used this command after forgetting to clean the package cache before running full system backup.  When I wanted to remove data from the backup where I had removed data in the source directory, this was how I updated the backup.
 
