@@ -10,6 +10,9 @@ Things to remember before running some types of backups:
 2. clean out package cache (for Arch linux)
 
 ### Full system backup
+
+Make sure to check list of folders you want to exclude from the backup.  The two last entries in ```--exclude``` are ones I've added as I don't want them backed up.
+
 `sudo rsync -aAXv --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found","/home/*/.cache/mozilla","/home/*/VirtualBox VMs"} / /mnt/LocalData/optiblack`
 
 ### Remove that files have been deleted in source dir
