@@ -17,3 +17,5 @@ Things to remember before running some types of backups:
 I have used this command after forgetting to clean the package cache before running full system backup.  When I wanted to remove data from the backup where I had removed data in the source directory, this was how I updated the backup.
 
 `sudo rsync -aAXv --delete /var/cache/pacman/pkg/ /mnt/LocalData/optiblack/var/cache/pacman/pkg`
+
+> NOTE: The trailing '/' at the end of source dir means copy the source directory contents into the target directory without creating a new sub-directory for the files
