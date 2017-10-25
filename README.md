@@ -19,3 +19,7 @@ I have used this command after forgetting to clean the package cache before runn
 `sudo rsync -aAXv --delete /var/cache/pacman/pkg/ /mnt/LocalData/optiblack/var/cache/pacman/pkg`
 
 > NOTE: The trailing '/' at the end of source dir means copy the source directory contents into the target directory without creating a new sub-directory for the files
+
+### References
+
+https://wiki.archlinux.org/index.php/rsync
