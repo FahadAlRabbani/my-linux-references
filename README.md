@@ -33,3 +33,4 @@ I have used this command after forgetting to clean the package cache before runn
 
 https://wiki.archlinux.org/index.php/rsync
 https://wiki.archlinux.org/index.php/pacman
+https://www.ostechnix.com/recommended-way-clean-package-cache-arch-linux/
