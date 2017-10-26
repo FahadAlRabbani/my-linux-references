@@ -9,6 +9,12 @@ Things to remember before running some types of backups:
 1. clean out temporary files
 2. clean out package cache (for Arch linux)
 
+### Cleaning the package cache (for Arch linux)
+
+To clean out the package cache on Arch linux run the command below.  By default, it will keep the 3 most recent versions of all cached packages regardless if they are installed or not.
+
+`sudo paccache -r`
+
 ### Full system backup
 
 Make sure to check list of folders you want to exclude from the backup.  The two last entries in ```--exclude``` are ones I've added as I don't want them backed up.
@@ -26,3 +32,4 @@ I have used this command after forgetting to clean the package cache before runn
 ### References
 
 https://wiki.archlinux.org/index.php/rsync
+https://wiki.archlinux.org/index.php/pacman
