@@ -4,6 +4,8 @@
 
 ### Installing NVM on Arch Linux
 
-```yaourt -Syu --aur nvm```
+```
+yaourt -Syu --aur nvm
 
-```echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc```
+echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
+```
