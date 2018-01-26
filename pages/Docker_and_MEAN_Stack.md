@@ -53,7 +53,7 @@ Clone meanjs github repo to local:
 
 Build Dockerfile `docker build -t mean .`
 
-Run docker container `docker run -p 3000:3000 --link db:db_1 mean`
+Run docker container `docker run -p 3000:3000 -p 35729:35729 --link db:db_1 mean`
 
 
 ### Access the MEANJS sample page 
