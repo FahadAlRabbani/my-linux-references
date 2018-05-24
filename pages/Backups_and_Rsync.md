@@ -24,7 +24,7 @@ Make sure to check list of folders you want to exclude from the backup.  The two
 sudo rsync -aAXv --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found","/home/*/.cache/mozilla","/home/*/VirtualBox VMs"} / /mnt/LocalData/optiblack
 ```
 
-### Remove that files have been deleted in source dir
+### Remove files that have been deleted in source dir
 
 I have used this command after forgetting to clean the package cache before running full system backup.  When I wanted to remove data from the backup where I had removed data in the source directory, this was how I updated the backup.
 
