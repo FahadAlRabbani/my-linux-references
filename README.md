@@ -12,3 +12,5 @@ A simple repository to store handy Linux scripts, references, commands, or thing
 [NodeJS / NPM / NVM](pages/NodeJS_NPM_NVM.md)
 
 [Docker / MEAN Stack](pages/Docker_and_MEAN_Stack.md)
+
+[Android](pages/Android.md)
